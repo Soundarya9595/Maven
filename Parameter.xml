@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="ModelName " value="Maruti Wagon R"></parameter>
+  <parameter name="ModelId" value="ZXI AMT 1.2"></parameter>
+  <parameter name="Loc" value="Hyderabad"></parameter>
+  
+  
+  <parameter name="mile" value="32.5"></parameter>
+  <parameter name="engine" value="1197 cc"></parameter>
+  
+  <parameter name="Color" value="Red"></parameter>
+  <parameter name="Price" value="Rs.5.18 - 6.58 Lakh*"></parameter>
+  
+  <classes>
+  <class name = "com.TestNg.Parameter_NG"></class>
+  <class name="com.TestNg.Param2_Ng"></class>
+  </classes>
+  
+  
+  
+  
+  
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
